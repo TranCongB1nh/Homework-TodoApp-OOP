@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo List</title>
+</head>
+<body>
+<h1>TODO</h1>
+
+<input id="newTodo" type="text">
+<button id="addTodoBtn">Add</button>
+<button id="clearTodoBtn" onclick="todoList.clearTodoInput()">Cancel</button>
+
+<div>
+    <label for="filter">Filter:</label>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="undone">Undone</option>
+        <option value="done">Done</option>
+    </select>
+</div>
+
+<ul id="todoList"></ul>
+
+<script src="test.js"></script>
+</body>
+</html>
